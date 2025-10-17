@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Ghost Bot</string>
+    <string name="app_title">Cyber-Ghost Trading Bot</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_market">Market</string>
+    <string name="nav_config">Config</string>
+    <string name="nav_history">History</string>
+    <string name="nav_more">More</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_analysis">Analysis</string>
+    
+    <!-- Security PIN -->
+    <string name="security_title">Enter Security Code</string>
+    <string name="security_subtitle">Protect your trading account</string>
+    <string name="security_pin_hint">8-digit PIN</string>
+    <string name="security_incorrect_pin">Incorrect PIN. Try again.</string>
+    <string name="security_locked_message">Too many attempts. Wait 30 seconds.</string>
+    <string name="security_unlock_success">Access granted</string>
+    <string name="security_biometric_title">Unlock Ghost Bot</string>
+    <string name="security_biometric_subtitle">Use your biometric to access</string>
+    <string name="security_biometric_negative">Use PIN</string>
+    
+    <!-- Login -->
+    <string name="login_title">Connect to Deriv</string>
+    <string name="login_account_type">Account Type</string>
+    <string name="login_demo">Demo</string>
+    <string name="login_real">Real</string>
+    <string name="login_broker">Broker</string>
+    <string name="login_server">Server</string>
+    <string name="login_id">Login ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_connect">Connect</string>
+    <string name="login_connecting">Connecting...</string>
+    <string name="login_error">Connection failed. Check credentials.</string>
+    <string name="login_success">Connected successfully</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Trading Dashboard</string>
+    <string name="dashboard_balance">Balance</string>
+    <string name="dashboard_equity">Equity</string>
+    <string name="dashboard_margin">Margin</string>
+    <string name="dashboard_free_margin">Free Margin</string>
+    <string name="dashboard_profit_loss">P&amp;L</string>
+    <string name="dashboard_open_positions">Open Positions</string>
+    <string name="dashboard_ai_signal">AI Signal</string>
+    <string name="dashboard_market_trend">Market Trend</string>
+    <string name="dashboard_connection_status">Connection Status</string>
+    <string name="dashboard_connected">Connected</string>
+    <string name="dashboard_disconnected">Disconnected</string>
+    <string name="dashboard_reconnecting">Reconnecting...</string>
+    
+    <!-- Market Analysis -->
+    <string name="market_title">AI Market Analysis</string>
+    <string name="market_symbol">Symbol</string>
+    <string name="market_price">Price</string>
+    <string name="market_change">Change</string>
+    <string name="market_volume">Volume</string>
+    <string name="market_ai_recommendation">AI Recommendation</string>
+    <string name="market_confidence">Confidence</string>
+    <string name="market_execute_trade">Execute Trade</string>
+    <string name="market_buy">BUY</string>
+    <string name="market_sell">SELL</string>
+    <string name="market_hold">HOLD</string>
+    <string name="market_analyzing">Analyzing market...</string>
+    
+    <!-- Trading Configuration -->
+    <string name="config_title">Trading Configuration</string>
+    <string name="config_lot_size">Lot Size</string>
+    <string name="config_leverage">Leverage</string>
+    <string name="config_stop_loss">Stop Loss</string>
+    <string name="config_take_profit">Take Profit</string>
+    <string name="config_max_drawdown">Max Drawdown</string>
+    <string name="config_timeframe">Timeframe</string>
+    <string name="config_ai_mode">AI Trading Mode</string>
+    <string name="config_risk_level">Risk Level</string>
+    <string name="config_conservative">Conservative</string>
+    <string name="config_moderate">Moderate</string>
+    <string name="config_aggressive">Aggressive</string>
+    <string name="config_save">Save Configuration</string>
+    <string name="config_reset">Reset to Default</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_api_keys">API Keys</string>
+    <string name="settings_deriv_api">Deriv API Key</string>
+    <string name="settings_openai_api">OpenAI API Key</string>
+    <string name="settings_perplexity_api">Perplexity API Key</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_change_pin">Change PIN</string>
+    <string name="settings_biometric">Enable Biometric</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_trade_alerts">Trade Alerts</string>
+    <string name="settings_ai_insights">AI Insights</string>
+    <string name="settings_connection">Connection</string>
+    <string name="settings_test_connection">Test Connection</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    
+    <!-- Trading History -->
+    <string name="history_title">Trading History</string>
+    <string name="history_date">Date</string>
+    <string name="history_time">Time</string>
+    <string name="history_type">Type</string>
+    <string name="history_symbol_label">Symbol</string>
+    <string name="history_volume_label">Volume</string>
+    <string name="history_price_label">Price</string>
+    <string name="history_profit_label">Profit</string>
+    <string name="history_filter">Filter</string>
+    <string name="history_export">Export</string>
+    <string name="history_no_trades">No trading history available</string>
+    
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_mark_all_read">Mark All Read</string>
+    <string name="notifications_clear_all">Clear All</string>
+    <string name="notifications_no_notifications">No notifications</string>
+    <string name="notifications_trade_executed">Trade executed</string>
+    <string name="notifications_ai_alert">AI Alert</string>
+    <string name="notifications_connection_lost">Connection lost</string>
+    <string name="notifications_margin_call">Margin call warning</string>
+    
+    <!-- Detailed Analysis -->
+    <string name="analysis_title">Detailed Analysis</string>
+    <string name="analysis_performance">Performance</string>
+    <string name="analysis_win_rate">Win Rate</string>
+    <string name="analysis_profit_factor">Profit Factor</string>
+    <string name="analysis_max_drawdown">Max Drawdown</string>
+    <string name="analysis_total_trades">Total Trades</string>
+    <string name="analysis_ai_accuracy">AI Accuracy</string>
+    <string name="analysis_risk_metrics">Risk Metrics</string>
+    <string name="analysis_export_report">Export Report</string>
+    
+    <!-- Common UI Elements -->
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="refresh">Refresh</string>
+    <string name="retry">Retry</string>
+    
+    <!-- Time formats -->
+    <string name="time_now">Now</string>
+    <string name="time_minutes_ago">%d minutes ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_days_ago">%d days ago</string>
+    
+    <!-- Currency formatting -->
+    <string name="currency_format">$%,.2f</string>
+    <string name="percentage_format">%+.2f%%</string>
+    <string name="volume_format">%.2f</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Network connection error</string>
+    <string name="error_api">API error. Please try again.</string>
+    <string name="error_authentication">Authentication failed</string>
+    <string name="error_insufficient_funds">Insufficient funds</string>
+    <string name="error_invalid_input">Invalid input</string>
+    <string name="error_generic">Something went wrong</string>
+</resources>

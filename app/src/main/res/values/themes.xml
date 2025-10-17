@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Ghost Bot Theme -->
+    <style name="Theme.GhostBot" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/royal_gold</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">@color/royal_gold_dark</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/ruby_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/ruby_red_dark</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+        
+        <!-- Background colors -->
+        <item name="colorBackground">@color/background_dark</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/ruby_red</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">@color/ruby_red_dark</item>
+        <item name="colorOnErrorContainer">@color/white</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        
+        <!-- Window flags -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        
+        <!-- Animation -->
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+    
+    <!-- Security Theme for PIN entry -->
+    <style name="Theme.GhostBot.Security" parent="Theme.GhostBot">
+        <item name="android:windowSecurePolicy">1</item>
+        <item name="android:windowBackground">@drawable/security_background</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/SecurityAnimation</item>
+    </style>
+    
+    <!-- Animation styles -->
+    <style name="SecurityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+    
+    <!-- Text styles -->
+    <style name="TextStyle.Display.Large" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:textColor">@color/royal_gold</item>
+        <item name="android:fontFamily">@font/orbitron_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    
+    <style name="TextStyle.Display.Medium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/orbitron_medium</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    
+    <style name="TextStyle.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/royal_gold</item>
+        <item name="android:fontFamily">@font/orbitron_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="TextStyle.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="TextStyle.Label" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- Button styles -->
+    <style name="ButtonStyle.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/royal_gold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/orbitron_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">8dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <style name="ButtonStyle.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/royal_gold</item>
+        <item name="android:textColor">@color/royal_gold</item>
+        <item name="android:fontFamily">@font/orbitron_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <style name="ButtonStyle.Danger" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/ruby_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/orbitron_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">8dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <!-- Card styles -->
+    <style name="CardStyle.Primary" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="strokeColor">@color/royal_gold_alpha</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    
+    <style name="CardStyle.Glow" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/card_background_glow</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="strokeColor">@color/cyber_blue_alpha</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+    
+    <!-- TextField styles -->
+    <style name="TextFieldStyle.Outlined" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/royal_gold</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+</resources>

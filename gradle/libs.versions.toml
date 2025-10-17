@@ -1,0 +1,162 @@
+[versions]
+# Core versions
+androidGradlePlugin = "8.7.2"
+kotlin = "2.0.21"
+ksp = "2.0.21-1.0.25"
+
+# AndroidX
+composeBom = "2024.10.01"
+composeActivity = "1.9.3"
+composeNavigation = "2.8.3"
+composeViewModel = "2.8.7"
+lifecycle = "2.8.7"
+coreKtx = "1.15.0"
+appcompat = "1.7.0"
+material = "1.12.0"
+
+# Networking & API
+retrofit = "2.11.0"
+okhttp = "4.12.0"
+moshi = "1.15.1"
+
+# Security
+security = "1.1.0-alpha06"
+biometric = "1.2.0-alpha05"
+
+# Dependency Injection
+hilt = "2.52"
+
+# WebSocket
+okHttpWS = "4.12.0"
+scarlet = "0.1.12"
+
+# AI/ML
+tensorflowLite = "2.16.1"
+
+# Utilities
+timber = "5.0.1"
+coil = "2.7.0"
+lottie = "6.5.2"
+datastore = "1.1.1"
+room = "2.6.1"
+
+# Testing
+junit = "4.13.2"
+androidxJunit = "1.2.1"
+espresso = "3.6.1"
+mockk = "1.13.13"
+
+[libraries]
+# Core Android
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "composeViewModel" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "composeActivity" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Compose BOM
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose", name = "compose-ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose", name = "compose-ui-graphics" }
+androidx-compose-ui-tooling = { group = "androidx.compose", name = "compose-ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose", name = "compose-ui-tooling-preview" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose", name = "compose-ui-test-manifest" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose", name = "compose-ui-test-junit4" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-material3-window-size = { group = "androidx.compose.material3", name = "material3-window-size-class" }
+androidx-compose-animation = { group = "androidx.compose", name = "compose-animation" }
+
+# Navigation
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "composeNavigation" }
+
+# Networking
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+okhttp-websocket = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttpWS" }
+moshi = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
+moshi-kotlin = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi" }
+moshi-codegen = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+
+# Security
+androidx-security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "security" }
+androidx-biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+
+# Dependency Injection
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version = "1.2.0" }
+
+# WebSocket
+scarlet = { group = "com.tinder.scarlet", name = "scarlet", version.ref = "scarlet" }
+scarlet-websocket-okhttp = { group = "com.tinder.scarlet", name = "websocket-okhttp", version.ref = "scarlet" }
+scarlet-moshi = { group = "com.tinder.scarlet", name = "message-adapter-moshi", version.ref = "scarlet" }
+scarlet-coroutines = { group = "com.tinder.scarlet", name = "stream-adapter-coroutines", version.ref = "scarlet" }
+
+# AI/ML
+tensorflow-lite = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tensorflowLite" }
+tensorflow-lite-support = { group = "org.tensorflow", name = "tensorflow-lite-support", version.ref = "tensorflowLite" }
+
+# DataStore
+androidx-datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+
+# Room Database
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
+# Utilities
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+
+# Gradle
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+[bundles]
+compose = [
+    "androidx-activity-compose",
+    "androidx-compose-ui",
+    "androidx-compose-ui-graphics",
+    "androidx-compose-ui-tooling-preview",
+    "androidx-compose-material3",
+    "androidx-compose-animation",
+    "androidx-navigation-compose"
+]
+
+networking = [
+    "retrofit",
+    "retrofit-moshi",
+    "okhttp",
+    "okhttp-logging",
+    "moshi",
+    "moshi-kotlin"
+]
+
+room = [
+    "androidx-room-runtime",
+    "androidx-room-ktx"
+]
+
+websocket = [
+    "scarlet",
+    "scarlet-websocket-okhttp",
+    "scarlet-moshi",
+    "scarlet-coroutines"
+]
